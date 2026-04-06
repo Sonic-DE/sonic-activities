@@ -92,6 +92,7 @@ Manager::ServiceStatus Manager::serviceStatus()
 void Manager::serviceOwnerChanged(const QString &serviceName, const QString &oldOwner, const QString &newOwner)
 {
     Q_UNUSED(oldOwner);
+    Q_UNUSED(newOwner);
 
     if (serviceName == KAMD_DBUS_SERVICE) {
         const bool isRunning = QDBusConnection::sessionBus().interface()->isServiceRegistered(KAMD_DBUS_SERVICE);
