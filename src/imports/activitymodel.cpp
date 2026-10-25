@@ -89,7 +89,7 @@ public:
     public:
         BackgroundCache()
             : initialized(false)
-            , plasmaConfig(QStringLiteral("plasma-org.kde.plasma.desktop-appletsrc"))
+            , plasmaConfig(QStringLiteral("sonic-org.sonicde.desktop-appletsrc"))
         {
             using namespace std::placeholders;
 
