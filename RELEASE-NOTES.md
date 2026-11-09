@@ -2,7 +2,7 @@
 
 Sonic Activities lets you organize your SonicDE desktop into separate activities, each with its own apps, files and layout.
 
-## Unreleased
+## 6.8.2 (2026-11-10)
 
 - Activities now read your desktop layout from SonicDE's own settings, so they line up with the SonicDE desktop.
 
